@@ -16,6 +16,7 @@
 		CE8A3BC72671586E0033694B /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A3BC62671586E0033694B /* Car.swift */; };
 		CE8A3BC9267159370033694B /* CarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A3BC8267159370033694B /* CarData.swift */; };
 		CE8A3BCB26715C460033694B /* CarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A3BCA26715C460033694B /* CarStore.swift */; };
+		CE8A3BCD267163330033694B /* CarDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A3BCC267163330033694B /* CarDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CE8A3BC62671586E0033694B /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		CE8A3BC8267159370033694B /* CarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarData.swift; sourceTree = "<group>"; };
 		CE8A3BCA26715C460033694B /* CarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStore.swift; sourceTree = "<group>"; };
+		CE8A3BCC267163330033694B /* CarDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				CE8A3BB32671576D0033694B /* listnav_demoApp.swift */,
 				CE8A3BB52671576D0033694B /* ContentView.swift */,
 				CE8A3BC62671586E0033694B /* Car.swift */,
+				CE8A3BCC267163330033694B /* CarDetail.swift */,
 				CE8A3BC8267159370033694B /* CarData.swift */,
 				CE8A3BCA26715C460033694B /* CarStore.swift */,
 				CE8A3BB7267157730033694B /* Assets.xcassets */,
@@ -158,6 +161,7 @@
 				CE8A3BC9267159370033694B /* CarData.swift in Sources */,
 				CE8A3BB62671576D0033694B /* ContentView.swift in Sources */,
 				CE8A3BB42671576D0033694B /* listnav_demoApp.swift in Sources */,
+				CE8A3BCD267163330033694B /* CarDetail.swift in Sources */,
 				CE8A3BC72671586E0033694B /* Car.swift in Sources */,
 				CE8A3BCB26715C460033694B /* CarStore.swift in Sources */,
 			);
