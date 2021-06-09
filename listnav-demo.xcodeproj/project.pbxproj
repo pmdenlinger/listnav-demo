@@ -11,6 +11,11 @@
 		CE8A3BB62671576D0033694B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A3BB52671576D0033694B /* ContentView.swift */; };
 		CE8A3BB8267157730033694B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8A3BB7267157730033694B /* Assets.xcassets */; };
 		CE8A3BBB267157730033694B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8A3BBA267157730033694B /* Preview Assets.xcassets */; };
+		CE8A3BC3267157C20033694B /* CarAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8A3BC2267157C20033694B /* CarAssets.xcassets */; };
+		CE8A3BC5267158360033694B /* carData.json in Resources */ = {isa = PBXBuildFile; fileRef = CE8A3BC4267158360033694B /* carData.json */; };
+		CE8A3BC72671586E0033694B /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A3BC62671586E0033694B /* Car.swift */; };
+		CE8A3BC9267159370033694B /* CarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A3BC8267159370033694B /* CarData.swift */; };
+		CE8A3BCB26715C460033694B /* CarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A3BCA26715C460033694B /* CarStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		CE8A3BB7267157730033694B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8A3BBA267157730033694B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE8A3BBC267157730033694B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8A3BC2267157C20033694B /* CarAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CarAssets.xcassets; sourceTree = "<group>"; };
+		CE8A3BC4267158360033694B /* carData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carData.json; sourceTree = "<group>"; };
+		CE8A3BC62671586E0033694B /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		CE8A3BC8267159370033694B /* CarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarData.swift; sourceTree = "<group>"; };
+		CE8A3BCA26715C460033694B /* CarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +64,12 @@
 			children = (
 				CE8A3BB32671576D0033694B /* listnav_demoApp.swift */,
 				CE8A3BB52671576D0033694B /* ContentView.swift */,
+				CE8A3BC62671586E0033694B /* Car.swift */,
+				CE8A3BC8267159370033694B /* CarData.swift */,
+				CE8A3BCA26715C460033694B /* CarStore.swift */,
 				CE8A3BB7267157730033694B /* Assets.xcassets */,
+				CE8A3BC2267157C20033694B /* CarAssets.xcassets */,
+				CE8A3BC4267158360033694B /* carData.json */,
 				CE8A3BBC267157730033694B /* Info.plist */,
 				CE8A3BB9267157730033694B /* Preview Content */,
 			);
@@ -126,8 +141,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8A3BC5267158360033694B /* carData.json in Resources */,
 				CE8A3BBB267157730033694B /* Preview Assets.xcassets in Resources */,
 				CE8A3BB8267157730033694B /* Assets.xcassets in Resources */,
+				CE8A3BC3267157C20033694B /* CarAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8A3BC9267159370033694B /* CarData.swift in Sources */,
 				CE8A3BB62671576D0033694B /* ContentView.swift in Sources */,
 				CE8A3BB42671576D0033694B /* listnav_demoApp.swift in Sources */,
+				CE8A3BC72671586E0033694B /* Car.swift in Sources */,
+				CE8A3BCB26715C460033694B /* CarStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
