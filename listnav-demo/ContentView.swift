@@ -12,7 +12,8 @@ struct ContentView: View {
     @StateObject var carStore: CarStore = CarStore(cars: carData)
     
     var body: some View {
-         
+        
+    NavigationView {
         List {
             ForEach(carStore.cars) { car in
                 ListCell(car:car)
@@ -31,6 +32,7 @@ struct ContentView_Previews: PreviewProvider {
 struct ListCell: View {
     var car: Car
     var body: some View {
+        NavigationLink(destination: CarDetail(selectedCar: car)) {
         HStack {
             Image(car.imageName)
                 .resizable()
@@ -39,4 +41,6 @@ struct ListCell: View {
             Text(car.name)
         }
     }
+}
+}
 }
